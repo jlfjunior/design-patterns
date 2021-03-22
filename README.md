@@ -13,5 +13,18 @@ O *Strategy* é um padrão que pode ser utilizado quando uma classe principal po
     - Aumento da complexidade da criação de objetos.
     - Aumento do número de classes para a solução.
 
+### TemplateMethod
+O *Template Method* define um modelo/esqueleto para uma classe base, deixando que suas sub classes implementem partes do seu algoritmo ou reescrevam determinadas etapas do seu algoritmo sem alterar o modelo/esqueleto pré definido.
+
+    Pontos Positivos
+    - Permite que os clientes subscrevam partes do algoritmo, incluindo/removendo regras.
+    - Concentração do código comum na superclasse. 
+    
+    Pontos Negativos
+    - Usa herança, ferindo o Liskov Substitution Principle (LSP) presente no S.O.L.I.D
+
+
+
 # Reference
  - [DoFactory](https://www.dofactory.com/net/design-patterns)
+ - [Factoring.Guru](https://refactoring.guru/design-patterns)
