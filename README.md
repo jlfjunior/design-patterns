@@ -8,6 +8,7 @@ O *Strategy* é um padrão que pode ser utilizado quando uma classe principal po
     - Alterar o algoritmo sem alterar a classe principal.
     - Redução de lógicas complexas dentro da classe principal.
     - A implementação pode ser alterada em tempo de execução.
+    - Fortalece Open/Closed Principle presente no S.O.L.I.D. Você pode implementar novas estrategia sem alterar a classe principal
 
     Pontos Negativos
     - Aumento da complexidade da criação de objetos.
@@ -19,7 +20,7 @@ O *Template Method* define um modelo/esqueleto para uma classe base, deixando qu
     Pontos Positivos
     - Permite que os clientes subscrevam partes do algoritmo, incluindo/removendo regras.
     - Concentração do código comum na superclasse. 
-    
+
     Pontos Negativos
     - Usa herança, ferindo o Liskov Substitution Principle (LSP) presente no S.O.L.I.D
 
