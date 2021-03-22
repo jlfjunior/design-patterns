@@ -1,5 +1,33 @@
 # **Patterns**
-É um repositório para estudo de **Padrões de Projetos**. Baseado nos 24 padrões catalogados pela *Gang of Four* (GoF), irei apresentar os padrões *Comportamenstais, Estruturais e de Criação* utilizando a linguagem C#.
+É um repositório para estudo de **Padrões de Projetos**. Baseado nos 23 padrões catalogados pela *Gang of Four* (GoF), irei apresentar os padrões *Comportamenstais, Estruturais e de Criação* utilizando a linguagem C#.
+
+**Creational Patterns**
+- [ ] Factory Method
+- [ ] Builder
+- [ ] Prototype
+- [ ] Abstract Factory
+- [ ] Singleton
+
+**Structural Patterns**
+- [ ] Adapter
+- [ ] Decorator
+- [ ] Composite
+- [ ] Bridge
+- [ ] Facade
+- [ ] Proxy
+- [ ] Flyweight
+
+**Behavioral Patterns**
+- [x] [Template Method](https://github.com/jlfjunior/patterns#templatemethod)
+- [x] [Strategy](https://github.com/jlfjunior/patterns#strategy)
+- [ ] Observer
+- [ ] Command
+- [ ] Mediator
+- [ ] Iterator
+- [ ] Chain of Responsibility
+- [ ] Memento
+- [ ] State
+- [ ] Visitor
 
 ### Strategy
 O *Strategy* é um padrão que pode ser utilizado quando uma classe principal possuir diversos algoritmos que podem ser alterados para contemplar um comportamento específico.
