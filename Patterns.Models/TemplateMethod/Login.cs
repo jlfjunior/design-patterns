@@ -8,9 +8,6 @@
 
         public bool IsAuthenticated() => User != null;
 
-        public User GetUserInformation()
-        {
-            return User;
-        }
+        public User GetUserInformation() => User;
     }
 }
