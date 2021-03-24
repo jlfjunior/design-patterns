@@ -2,6 +2,6 @@
 {
     public interface ICommission
     {
-        decimal GetCommission(Order order);
+        decimal GetValue(Order order);
     }
 }

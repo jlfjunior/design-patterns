@@ -4,11 +4,13 @@
     {
         public EmployeeType Type { get; set; }
         public string FullName { get; set; }
+        public ICommission Commission { get; private set; }
 
-        public Employee(EmployeeType type, string fullName)
+        public Employee(EmployeeType type, string fullName, ICommission commission)
         {
             Type = type;
             FullName = fullName;
+            Commission = commission;
         }
     }
 

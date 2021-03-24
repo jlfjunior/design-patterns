@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Models", "Patterns.Models\Patterns.Models.csproj", "{8733FD9E-5A4A-45A4-BC89-A962F51223F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Models", "Patterns.Models\Patterns.Models.csproj", "{8733FD9E-5A4A-45A4-BC89-A962F51223F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Tests", "Patterns.Tests\Patterns.Tests.csproj", "{85505125-FEAE-44D5-B213-EFEDDF970CE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Tests", "Patterns.Tests\Patterns.Tests.csproj", "{85505125-FEAE-44D5-B213-EFEDDF970CE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1123A5A4-819C-4116-8D77-BA935C7E10F1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8733FD9E-5A4A-45A4-BC89-A962F51223F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +47,11 @@ Global
 		{85505125-FEAE-44D5-B213-EFEDDF970CE3}.Release|x64.Build.0 = Release|Any CPU
 		{85505125-FEAE-44D5-B213-EFEDDF970CE3}.Release|x86.ActiveCfg = Release|Any CPU
 		{85505125-FEAE-44D5-B213-EFEDDF970CE3}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B276252F-6D75-4B22-9B5E-495D25CA87C6}
 	EndGlobalSection
 EndGlobal
