@@ -2,7 +2,7 @@
 É um repositório para estudo de **Padrões de Projetos**. Baseado nos 23 padrões catalogados pela *Gang of Four* (GoF), irei apresentar os padrões *Comportamenstais, Estruturais e de Criação* utilizando a linguagem C#.
 
 **Creational Patterns**
-- [ ] Factory Method
+- [x] [Factory Method](https://github.com/jlfjunior/patterns#factorymethod)
 - [ ] Builder
 - [ ] Prototype
 - [ ] Abstract Factory
@@ -52,8 +52,16 @@ O *Template Method* define um modelo/esqueleto para uma classe base, deixando qu
     Pontos Negativos
     - Usa herança, ferindo o Liskov Substitution Principle (LSP) presente no S.O.L.I.D
 
+### FactoryMethod
+O *Factory Method* é um padrão que consiste em definir uma interface para criar objetos em um superclasse, porém esse padrão permite que as subclasses alterem o tipo do objeto quando necessário.
 
+    Pontos Positivos
+    - Evita acoplamento forte dentro do sistema.
+    - Princípio de responsabilidade única. Você concentra o código de criação de objetos em um único método.
+    - Princípio aberto/fechado. Você pode introduzir novos tipos do mesmo objeto no programa sem quebrar o código cliente existente.
 
+    Pontos Negativos
+    - Aumento do número de subclasses para a solução.
 # Reference
  - [DoFactory](https://www.dofactory.com/net/design-patterns)
  - [Factoring.Guru](https://refactoring.guru/design-patterns)
