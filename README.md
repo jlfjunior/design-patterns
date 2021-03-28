@@ -12,7 +12,7 @@
 - [ ] Adapter
 - [ ] Decorator
 - [ ] Composite
-- [ ] Bridge
+- [x] [Bridge](https://github.com/jlfjunior/patterns#bridge)
 - [ ] Facade
 - [ ] Proxy
 - [ ] Flyweight
@@ -62,6 +62,18 @@ O *Factory Method* é um padrão que consiste em definir uma interface para cria
 
     Pontos Negativos
     - Aumento do número de subclasses para a solução.
+
+### Bridge
+O *Bridge* é um padrão que permite que você faça uma ponte entre dois conjuntos de classes intimamente ligados através da composição de uma interface comum. Dessa forma você pode desenvolver cada extremidade independentemente sem afetar a ligação entre elas.
+    
+    Pontos Positivos
+    - Você cria classes e abstrações independentes.
+    - O código cliente trabalha com abstrações de alto nível sem se preocupar com detalhes da plataforma.
+    - Princípio de responsabilidade única. Foco na lógica de alto nível na abstração e detalhes específicos na implementação.
+    
+    Pontos Negativos
+    - Você torna o código mais complexo de entender ao aplicar o padrão em uma classe altamente coesa.
+
 # Reference
  - [DoFactory](https://www.dofactory.com/net/design-patterns)
  - [Factoring.Guru](https://refactoring.guru/design-patterns)
