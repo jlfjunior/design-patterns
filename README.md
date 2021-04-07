@@ -6,7 +6,7 @@
 - [ ] Builder
 - [ ] Prototype
 - [ ] Abstract Factory
-- [ ] Singleton
+- [x] [Singleton](https://github.com/jlfjunior/patterns#singleton)
 
 **Structural Patterns**
 - [ ] Adapter
@@ -73,6 +73,19 @@ O *Bridge* é um padrão que permite que você faça uma ponte entre dois conjun
     
     Pontos Negativos
     - Você torna o código mais complexo de entender ao aplicar o padrão em uma classe altamente coesa.
+
+### Singleton
+O *Singleton* é um padrão que pode ser utilizado quando o desenvolvedor deseja ter um ponto de acesso único a uma instância de uma classe no projeto.
+
+    Pontos Positivos
+    - Um objeto singleton só é instanciado quando for requisitado pela primeira vez.
+    - Você ganha um ponto único de acesso a uma instância.
+    - O desenvolvedor tem certeza que uma classe tem uma única instância.
+
+    Pontos Negativos
+    - O Singleton resolve dois problemas, violando o princípio de responsabilidade única.
+    - O Singleton requer tratamento especial em um ambiente multithreaded.
+    - Aumento da complexidade de realizar testes unitários.
 
 # Reference
  - [DoFactory](https://www.dofactory.com/net/design-patterns)
