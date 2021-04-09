@@ -3,7 +3,7 @@
 
 **Creational Patterns**
 - [x] [Factory Method](https://github.com/jlfjunior/patterns#factorymethod)
-- [ ] Builder
+- [x] [Builder](https://github.com/jlfjunior/patterns#builder)
 - [ ] Prototype
 - [ ] Abstract Factory
 - [x] [Singleton](https://github.com/jlfjunior/patterns#singleton)
@@ -86,6 +86,16 @@ O *Singleton* é um padrão que pode ser utilizado quando o desenvolvedor deseja
     - O Singleton resolve dois problemas, violando o princípio de responsabilidade única.
     - O Singleton requer tratamento especial em um ambiente multithreaded.
     - Aumento da complexidade de realizar testes unitários.
+
+### Builder
+O *Builder* é um padrão muito utilizado quando o desenvolvedor tem a necessidade de dividir em etapas a criação de objetos complexos da sua representação. O padrão ainda permite a construção de diferentes representações de um mesmo objeto.
+
+    Pontos Positivos
+    - Princípio de responsabilidade única. O desenvolvedor isola a complexidade de construção do objeto das regras de negócios.
+    - Reaproveitamento de código, é possível usar os passos comuns a diferentes objetos.
+
+    Pontos Negativos
+    - Aumenta a complexidade de código devido a criação de novas classes.
 
 # Reference
  - [DoFactory](https://www.dofactory.com/net/design-patterns)
