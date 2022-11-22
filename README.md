@@ -9,7 +9,7 @@
 - [x] [Singleton](https://github.com/jlfjunior/patterns#singleton)
 
 **Structural Patterns**
-- [ ] Adapter
+- [x] [Adapter](https://github.com/jlfjunior/design-patterns#adapter)
 - [ ] Decorator
 - [ ] Composite
 - [x] [Bridge](https://github.com/jlfjunior/patterns#bridge)
@@ -62,6 +62,16 @@ O *Factory Method* é um padrão que consiste em definir uma interface para cria
 
     Pontos Negativos
     - Aumento do número de subclasses para a solução.
+
+### Adapter
+O *Adapter* pode ser utilizado quando precisamos compatibilizar uma interface não suportada por um serviço em uma que é suportada pelo serviço sem que o mesmo seja alterado.
+
+    Pontos Positivos
+    - Preserva o cenceito de Single Responsible Principle (SRP) sugerido pelo S.O.L.I.D
+    - Preserva o conceito de Open/Closed principle OCP, pois o serviço consumidor não sofre alteração
+
+    Pontos Negativos
+    - Sua base de código aumenta porque é necessario adicionar uma interface e sua implementação para torna as interfaces compativeis com o a que é esperada pelo serviço consumidor.
 
 ### Bridge
 O *Bridge* é um padrão que permite que você faça uma ponte entre dois conjuntos de classes intimamente ligados através da composição de uma interface comum. Dessa forma você pode desenvolver cada extremidade independentemente sem afetar a ligação entre elas.
